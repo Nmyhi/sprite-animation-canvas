@@ -1,3 +1,19 @@
-h1 {
-    color: aqua;
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+    width: 100%;
+    height: 100%S;
+    border: 1px solid red;
+    margin: 0;
+    background-image: url(/assets/images/wallhaven-xl6v7v.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
